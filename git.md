@@ -13,5 +13,6 @@ Git 与 SVN 区别点：
 创建git账户
 git-bash
 
+* 先安装 git,然后安装 torotise，再安装 torotise语言包
 
 
