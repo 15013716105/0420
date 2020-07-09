@@ -15,4 +15,29 @@ git-bash
 
 * 先安装 git,然后安装 torotise，再安装 torotise语言包
 
+## 远程的git库
+gitlib 与 github
+
+## 以github 
+* 注册 github 账号
+
+* https://github.com/15013716105/0420.git
+* git@github.com:15013716105/0420.git
+
+```
+//…或在命令行上创建新的存储库
+echo "# 0420" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/15013716105/0420.git
+git push -u origin master
+```
+```
+…或从命令行推送现有存储库
+git remote add origin https://github.com/15013716105/0420.git
+git push -u原始主机
+```
+
+
 
